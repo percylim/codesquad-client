@@ -1,0 +1,2 @@
+"id","productID","sku","barcode","productName","unit","cost","unitPrice","stockLocation","txnQty","txnTotal","txnDate","txnParticular","companyID"
+1,"",NULL,NULL,NULL,"",0.00,0.00,NULL,0.000,0.00,NULL,NULL,"codesquade"

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Add New Product</title>
+    <style>
+    
+      div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+      }
+      body {
+        background-color: #fff1e6; 
+        padding-left: 300px; 
+        padding-top: 100px; 
+      }
+      .button {
+        display: inline-block;
+        background-color: #7b38d8;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      .button:hover {
+         background-color: #564caf; /* Green */
+         color: white;
+}
+
+.button_cancel {
+        display: inline-block;
+        background-color: #53c685;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      .button_cancel:hover {
+         background-color: #20603b; /* Green */
+         color: white;
+}
+
+    </style>
+  </head>
+  <h1>Add New Product</h1>
+  <body>
+    <form action=" " method=" ">
+      <div>
+        <label for="ID">Product ID</label>
+        <input type="text" id="ID" name="productID" placeholder="Enter Product ID" size="50" style="text-transform:uppercase" required />
+      </div>
+    <div>
+    <label for="sku">Product SKU</label>
+    <input type="text" id="sku" name="sku" placeholder="Enter Product SKU" size="100" style="text-transform:uppercase" />
+    </div> 
+    <div>
+    <label for="barcode">Product Barcode</label>
+    <input type="text" id="barcode" name="barcode" placeholder="Enter Product Barcode" size="100" />
+    </div>
+
+     <div>
+         <label for="name">Product Name</label>
+        <input type="text" id="name" name="productName" placeholder="Enter Product Name" size="100" required />
+    </div>
+    <div>
+        <label for="desc">Product Description</label>
+        <input type="text" id="desc" name="Desc" placeholder="Enter Product Description" size="100" />    
+    </div>
+    <div>
+        <label for="price">Selling Price</label>
+        <input type="text" id="price" name="price" placeholder="Enter Selling Price" size="50" required />    
+
+    </div>
+
+    
+    <div>
+    
+    <label for="unit">Unit</label>
+    <input type="text" id="unit" name="unit" placeholder="Enter unit" size="30" required />
+  
+    </div>
+<div>
+
+    <label>Select Category</label>
+    
+    <select id="list" style="width: 500px" name="CategoryID" onchange="getSelectValue();">
+      <% for (const i in categoryData) { %>
+           
+        <option value="<%= categoryData[i].categoryID %>"> <%= categoryData[i].categoryID %> </option>
+    <% } %>
+      </select> 
+      <p>
+
+      </p>
+    </div>
+    <div>
+        <label>Select Brand</label>
+    
+        <select id="list" style="width: 500px" name="BrandID" onchange="getSelectValue();">
+          <% for (const i in brandData) { %>
+               
+            <option value="<%= brandData[i].brandID %>"> <%= brandData[i].brandID %> </option>
+        <% } %>
+        
+        </select>
+       </div>
+    </div>
+  <!--   <label for="name">Brand Image</label> -->
+  <!--   <input id="fileupload" type="file" /> -->
+  <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+  <p><label for="file" style="cursor: pointer;">Choose Image</label></p>
+  <p><img id="output" width="200" /></p>
+   <hr />
+  
+   <br />
+   
+    <div id="dvPreview">
+   </div>
+   
+
+   
+
+
+
+      <input type="submit" class="button" formaction="/product_new" formmethod="POST" value="Add New Product" />
+      <input type="submit" class="button_cancel" formaction="/product" formmethod="GET" formnovalidate value="Back" />
+    </form>
+
+    <script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+    
+        };
+
+        function getSelectValueB()
+        {
+            var selectedValueB = document.getElementById("listB").value;
+            
+        }
+        getSelectValueB(); 
+
+
+        function getSelectValue()
+        {
+            var selectedValue = document.getElementById("list").value;
+            
+        }
+        getSelectValue(); 
+      
+     </script>
+
+  </body>
+</html>

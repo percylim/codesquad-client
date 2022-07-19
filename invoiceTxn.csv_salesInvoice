@@ -1,0 +1,2 @@
+"inv","companyID","customerID","customerName","invoiceType","invoiceNo","invoiceDate","productID","barcode","productName","productDescription","unit","salesQty","unitPrice","discountPercent","unitDiscount","taxID","taxRate","itemTotal","taxItemTotal","invTaxTotal","remark"
+1,"codesquade","","",NULL,"",NULL,"",NULL,NULL,NULL,NULL,0.000,0.00,0.00,0.00,NULL,NULL,0.00,0.00,0.00,NULL

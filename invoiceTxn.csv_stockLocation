@@ -1,0 +1,7 @@
+"id","companyID","locationID","locationName","locationAddress","date_created","remark"
+1,"codesquad","1111","Main Store","3478 Jalan Tabuan","2021-12-01","Testing first location"
+2,"codesquad","1112","Sekama Store","123, Jalan Sekama","2021-12-01","Testing"
+3,"codesquad","1113","Stutong Store","2345, jalan Stutong","2021-12-01",""
+4,"codesquad","1214","Padugan Store","3748, jalan Padugan","2021-12-01",""
+5,"codesquad","1213","Grenn Store","2387, Green Road","2021-12-01",""
+6,"codesquad","1215","Tabuan Store","2345, jalan Stutong Tabuan","2021-12-31",""

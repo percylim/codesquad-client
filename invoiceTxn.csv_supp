@@ -1,0 +1,2 @@
+"id","companyID","supplierID","supplierName","nric","sex","dateBirth","address1","address2","postCode","city","state","country","level","position","salary","otRate","payMethod","incomeTaxNo","epfNo","socsoNo","drivingLicenseNo","childs","employDate","telNo","hpNo","email","password","maritalStatus","race","image","companyName"
+2,"codesquade","","","","",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL

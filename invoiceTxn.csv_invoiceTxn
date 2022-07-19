@@ -1,0 +1,2 @@
+"id","companyID","custSuppID","custSuppName","txnType","documentNo","voucherNo","invoiceNo","txnDate","txnParticular","txnTotal","taxID","taxRate","taxTotal","netTaxTotal"
+1,"codesquade","","",NULL,"",NULL,NULL,NULL,NULL,0.00,NULL,0.00,0.00,0.00
