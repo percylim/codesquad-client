@@ -1,0 +1,7 @@
+form {
+   display: flex; /* display flex to the rescue */
+   flex-direction: row;
+}
+label, input {
+    display: block; /* 1. oh noes, my input are styled */
+}

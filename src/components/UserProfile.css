@@ -1,0 +1,110 @@
+form {
+    margin-right: 1px;
+    margin-left: auto;
+    max-width: 1190px;
+    margin-top: 30px;
+}
+fieldset {
+    float: left;
+    clear: left;
+    width: 100%;
+    margin: 0 0 2.5em 0;
+    padding: 0;
+}
+
+label {
+    display: flex;
+    margin-right: 10em;
+    margin-left: 0.5em;
+    padding-left: 230px;
+    
+}
+
+  
+input:not([type=submit])
+ {
+ position: relative;
+ padding: 1px;
+ padding-left: 5px;
+ padding-right: 5px;
+ margin: 0 0 0 0;
+ width:60%;
+ border-top: 0;
+ border-right: 0;
+ border-bottom: 1px solid #bdc3c7;
+ border-left: 0;
+ transition: border-bottom-color .15s ease-in;
+ flex: 1;
+ }
+
+/* Style the submit button */
+input[type=submit] {
+    width: 10%;
+    background-color: #aa0412;
+    color: white;
+    padding: 1px 2px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+textValue {
+
+    box-sizing: border-box;
+	border: none;
+	border-radius: 3px;
+	resize: none;
+	font-size: 20px;
+	line-height: 50px;
+	overflow: auto;
+	height: auto;
+	padding: 8px;
+	box-shadow: 0px 4px 10px -8px black;
+    flex: 1;
+}
+	
+
+wrapper {
+    padding: 5px 20px;
+   
+}
+
+.wrapper fieldset {
+    margin: 20px 0;
+}
+
+.form {
+        color: "white";
+        backgroundColor: "DodgerBlue";
+        padding: "10px";
+        fontFamily: "Arial";
+}
+
+.nav {
+   padding: 0px 400px 0px;
+   alignRight: 0px;
+
+}
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 4px 0px 6px;
+}
+
+.smaller-input {
+      font-size: 12px;
+      padding: 2px 5px;
+ }  
+
+ .myId{
+    width: 10% important!;
+}
+input[type = radio],
+        input.radio {
+           float: left;
+           clear: none;
+           margin: 0 10px 0 10 px;
+           margin-right: 20px;
+}
