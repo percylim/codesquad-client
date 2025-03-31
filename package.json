@@ -2,8 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://centralsoft.com.my",
-  "proxy": "http://centralsoft.com.my:80",
+  "homepage": "https://centralsoft.com.my",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
@@ -69,5 +68,4 @@
       "last 1 safari version"
     ]
   }
- 
 }
