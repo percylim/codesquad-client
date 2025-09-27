@@ -1,0 +1,27 @@
+.app {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+
+  .img-container {
+    overflow: hidden;
+  }
+
+  .img-container img {
+    height: 100%;
+    width: 450px;
+    transition: transform 0.9s all ease-in-out;
+    border: 5px solid gold;
+    padding: 50px;
+    margin: 0 auto;
+  }
+
+  .img-container img:hover {
+  transform: scale(1.5);
+  }
+  .help-img:hover {
+    height: 500px;
+    width: 500px;
+  }
+  
