@@ -27,7 +27,7 @@ function App () {
       return;
    }
         renFile = companyID+"-"+event.target.files[0].name;
-     
+
         // alert(event.target.files[0].name);
       // alert(renFile);
     };

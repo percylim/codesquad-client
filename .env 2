@@ -1,0 +1,15 @@
+CLIENT_ID=y06UG3HUQg33XGRgljmHoRuqVYXuQb3a
+CLIENT_SECRET=4qFWNV1kvaigrjIcpXfzacI-j5XUNvrpy3cTEo50xFGTaze0YuODRzv9RPZKUOjQ
+AUTH0_DOMAIN=dev-rcorgxqe.us.auth0.com
+MONGO_DB_URI=mongodb+srv://percylim:huC1YMnFrMLoQDvN@cluster-cs.5fivo.mongodb.net/userDB?retryWrites=true&w=majority
+USER_SERVICE_URL = 'https://localhost:9005/users'
+SERVER_CONNECTION = 'https://localhost:9005/TestAPI'
+DB_HOST='sg1-ss103.a2hosting.com'
+DB_USER='centra55_percylim'
+DB_PASSWORD='IC(Ts00F+b-i'
+DB_NAME='centra55_centralsoft'
+BK_REACT_APP_SERVER_URL= 'http://centralsoft.com.my:80'
+REACT_APP_SERVER_URL= 'http://127.0.0.1:80'
+BK_REACT_APP_SERVER_URL = 'http://13.214.107.229:80'
+SKIP_PREFLIGHT_CHECK=true
+

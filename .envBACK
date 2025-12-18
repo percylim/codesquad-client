@@ -1,0 +1,8 @@
+REACT_APP_SERVER_URL= https://centralsoft.com.my:4434
+BK_REACT_APP_SERVER_URL= https://localhost:4434
+SKIP_PREFLIGHT_CHECK=true
+HTTPS=true
+SSL_CRT_FILE=./localhost.pem
+SSL_KEY_FILE=./localhost-key.pem
+PORT=3000
+

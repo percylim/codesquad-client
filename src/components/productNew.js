@@ -428,7 +428,7 @@ const { loadingImages, imgError, imgData, imageID } = this.state;
 
            <h1>Product Profile Maintenance</h1>
            <label style={{paddingLeft: '50px'}}>Product ID:
-          <input  class="text-uppercase" maxLength={30} onBlur={ this.formatInput } ref={this.productIDEl} name="gproductID" required />
+          <input  class="text-uppercase" maxLength={30} onBlur={ this.formatInput } ref={this.productIDEl} name="productID" required />
           </label>
            <label style={{paddingRight: '105px'}}>Product SKU :
           <input type="text"  maxLength={30} ref={this.skuEl} name="sku" />
